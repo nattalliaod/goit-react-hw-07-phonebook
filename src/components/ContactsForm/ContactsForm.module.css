@@ -1,0 +1,40 @@
+.form {
+  width: 600px;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #d4d4d4;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.input {
+  padding: 10px 20px;
+  border: 1px solid #0e0e5a;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: transparent;
+  border: 1px solid blue;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 5px;
+  margin: auto;
+  background-color: rgb(150, 191, 224);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+}
+
+.btn:hover {
+  background-color: rgb(152, 233, 152);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
